@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-cube{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: rgb(115, 210, 242);
+}
+
+.nav-cube h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 40px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.logo a{
+    text-decoration: none;
+    color:rgb(11, 12, 13);
+}
+.navigation{
+    display: flex;
+}
+
+.nav-kids{
+    text-transform: uppercase;
+    margin: 5px;
+    list-style: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    word-spacing: 5px;
+}
+
+.nav-kids a{
+    color: rgb(11, 12, 13);
+    text-decoration: none;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.rectangle1{
+    background-color:rgb(196, 14, 196) ;
+    width: 150px;
+    border-radius: 10px;
+    flex: 0.5;
+}
+
+.rectangle2{
+    background-color:orange;
+    padding: 50px;
+    width: 500px;
+    margin-left: 200px; 
+    border-radius: 10px;
+    flex: 1;
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.circle{
+    background-color: rgba(64, 246, 64, 0.905);
+    border-radius: 50%;
+    min-width: 50px;
+    max-width: 150px;
+    min-height: 50px;
+    max-height: 150px;
+}
+
+.rectangle3{
+    background-color:rgb(255, 0, 0) ;
+    width: 600px;
+    margin-left: 300px; 
+    border-radius: 10px;
+    height: 150px;
+}
+
+div{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 60px;
+}
+
+.rectangle4{
+    background-color:rgba(9, 11, 143, 0.853) ;
+    padding: 120px;
+    margin-top: 70px;
+    width: 800px;
+    border: 29px solid rgb(255, 103, 225);
+    border-radius: 10px;
+}
+
+.foot{
+    background-color: black;
+    margin-top: 50px;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-kid{
+    /* text-transform: uppercase; */
+    background-color: rgb(133, 131, 131);
+    text-align: center;
+    padding: 20px;
+    color: rgb(247, 248, 249);
+    width: 200px;
+    border-radius: 10px;
+}

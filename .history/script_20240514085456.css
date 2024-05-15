@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <nav class="nav-cube">
+    <h2 class="logo">LOGO</h2>
+    <ul class="navigation">
+        <li class="nav-kids">Home</li>
+        <li class="nav-kids">Contact Us</li>
+        <li class="nav-kids">About Us</li>
+    </ul>
+   </nav>
+
+   <header class="hero-section">
+<div class="rectangle1"></div>
+<div class="rectangle2"></div>
+   </header>
+
+   <main class="contain">
+    <div class="circle"></div>
+    <div class="rectangle3"> </div>
+   </main>
+
+   <div class="rectangle4"></div>
+
+   <footer class="foot">
+    <button class="foot-kid">HOME</button>
+    <button class="foot-kid">CONTERT US</button>
+    <button class="foot-kid">ABOUT US</button!>
+
+   </footer>
+</body>
+</html>

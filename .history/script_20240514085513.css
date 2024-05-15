@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-cube{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background: rgb(115, 210, 242);
+}
+
+.navigation{
+    display: flex;
+}
+
+.logo{
+    background: white;
+    padding: 40px;
+    border-radius: 50%;
+}
+
+.nav-kids{
+    text-transform: uppercase;
+margin: 5px;
+list-style: none;
+background-color: white;
+padding: 15px;
+border-radius: 10px;
+word-spacing: 5px;
+}
+
+.hero-section{
+display: flex;
+}
+
+.rectangle1{
+    background-color:rgb(179, 40, 179) ;
+    padding: 50px;
+    margin-top: 70px;
+    width: 200px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.rectangle2{
+    background-color:rgba(250, 164, 5, 0.912) ;
+    padding: 50px;
+    margin-top: 70px;
+    width: 500px;
+    margin-left: 350px; 
+    border-radius: 10px;
+}
+
+.contain{
+    display: flex;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.circle{
+    padding: 80px;
+    background-color: rgb(17, 234, 17);
+border-radius: 50%;
+width: 0px;
+margin-top: 100apx;
+margin-left: 150px;
+
+}
+
+.rectangle3{
+    background-color:red ;
+    padding: 40px;
+    margin-top: 70px;
+    width: 600px;
+    margin-left: 300px; 
+    border-radius: 10px;
+}
+
+.rectangle4{
+    background-color:red ;
+    padding: 120px;
+   margin-top: 70px;
+    width: 800px;
+    margin-left: 130px;
+border: 29px solid rgb(254, 59, 254);
+border-radius: 10px;
+}
+
+.foot{
+    background-color: black;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.foot-kid{
+    text-transform: uppercase;
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    color: black;
+margin: 50px;
+width: 200px;
+border-radius: 10px;
+}
